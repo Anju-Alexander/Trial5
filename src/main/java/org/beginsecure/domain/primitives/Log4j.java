@@ -14,4 +14,15 @@ public class Log4j {
         logger.error("We've just greeted the user(error)!");
         logger.fatal("We've just greeted the user(fatal)!");
     }
+    public int checkDisp()
+    {
+        try {
+            disp();
+        }
+        catch (Exception e)
+        {
+            return 1;
+        }
+        return 0;
+    }
 }
