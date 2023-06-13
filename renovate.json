@@ -12,6 +12,7 @@
   ],
  "vulnerabilityAlerts": {
     "enabled": true,
+    "groupName": "renovate security updates",
     "labels": ["RENOVATE"],
    "commitMessagePrefix": ["RENOVATE"],
     "automerge": true
