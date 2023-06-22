@@ -14,7 +14,9 @@
     "enabled": true,
      "packageRules": [
        {
-          "groupName": "Security Updates"
+          "groupName": "Security Updates",
+          "matchPackagePatterns": ["*"],
+          "matchUpdateTypes": [  "minor",  "patch" ]
        }
     
      ],
