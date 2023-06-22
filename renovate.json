@@ -7,19 +7,16 @@
     {
       "enabled": false,
       "matchPackagePatterns": ["*"],
-      "automerge": true
+       "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "all non-major dependencies"
     }
   ],
  "vulnerabilityAlerts": {
     "enabled": true,
-     "packageRules": [
-       {
-          "groupName": "Security Updates",
-          "matchPackagePatterns": ["*"],
-          "matchUpdateTypes": [  "minor",  "patch" ]
-       }
     
-     ],
     "labels": ["RENOVATE"],
    "commitMessagePrefix": ["RENOVATE"],
     "automerge": true
