@@ -12,12 +12,8 @@
   ],
  "vulnerabilityAlerts": {
     "enabled": true,
-        "packageRules": [
-      {
-        "groupName": "Security Updates"
-         "matchPackagePatterns": ["*"],
-        "matchUpdateTypes": [  "minor",  "patch" ]
-      }
+     "packageRules": [
+    
      ],
     "labels": ["RENOVATE"],
    "commitMessagePrefix": ["RENOVATE"],
