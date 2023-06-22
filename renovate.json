@@ -12,14 +12,14 @@
   ],
  "vulnerabilityAlerts": {
     "enabled": true,
-   "packageRules": [
-    {
-      "matchUpdateTypes": ["minor", "patch", "major", "lockFileMaintenance"],
-      "matchPackagePatterns": [".*"],
-      "groupName": "all dependencies",
-      "groupSlug": "all"
-    }
-  ],
+  
+   "matchPackagePatterns": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
     "labels": ["RENOVATE"],
    "commitMessagePrefix": ["RENOVATE"],
     "automerge": true
