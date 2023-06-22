@@ -20,15 +20,10 @@
   },
    "packageRules": [
     {
-       "matchPackagePatterns": [
-        "*"
-      ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ]
+       "matchPackagePatterns": ["*"],
+      "matchUpdateTypes": [  "minor",  "patch" ]
     }
-   ]
+   ],
   "osvVulnerabilityAlerts": true,
   "ignoreTests": true,
   "platformAutomerge": true,
