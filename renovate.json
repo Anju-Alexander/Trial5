@@ -14,8 +14,8 @@
     "enabled": true,
     "packageRules": [
     {
-      "groupName": "Renovate Security Updates",
-      "matchPackagePatterns": ["*"],
+      "groupName": "RENOVATE",
+      "matchPackagePatterns": ["RENOVATE"],
       "matchUpdateTypes": ["minor", "major"]
     }
   ],
