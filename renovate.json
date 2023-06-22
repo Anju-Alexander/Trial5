@@ -13,6 +13,9 @@
  "vulnerabilityAlerts": {
     "enabled": true,
      "packageRules": [
+       {
+          "groupName": "Security Updates"
+       }
     
      ],
     "labels": ["RENOVATE"],
