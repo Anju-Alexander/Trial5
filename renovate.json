@@ -12,6 +12,7 @@
   ],
  "vulnerabilityAlerts": {
     "enabled": true,
+   "matchUpdateTypes": ["*"],
     "labels": ["RENOVATE"],
    "commitMessagePrefix": ["RENOVATE"],
     "automerge": true
