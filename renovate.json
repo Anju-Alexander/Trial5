@@ -12,18 +12,17 @@
   ],
  "vulnerabilityAlerts": {
     "enabled": true,
-  
-  
+        "packageRules": [
+      {
+         "matchPackagePatterns": ["*"],
+        "matchUpdateTypes": [  "minor",  "patch" ]
+      }
+     ],
     "labels": ["RENOVATE"],
    "commitMessagePrefix": ["RENOVATE"],
     "automerge": true
   },
-   "packageRules": [
-    {
-       "matchPackagePatterns": ["*"],
-      "matchUpdateTypes": [  "minor",  "patch" ]
-    }
-   ],
+ 
   "osvVulnerabilityAlerts": true,
   "ignoreTests": true,
   "platformAutomerge": true,
