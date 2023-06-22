@@ -12,11 +12,12 @@
   ],
  "vulnerabilityAlerts": {
     "enabled": true,
-    "packageRules": [
+   "packageRules": [
     {
-      "groupName": "RENOVATE",
-      "matchPackagePatterns": ["RENOVATE"],
-      "matchUpdateTypes": ["minor", "major"]
+      "matchUpdateTypes": ["minor", "patch", "major", "lockFileMaintenance"],
+      "matchPackagePatterns": [".*"],
+      "groupName": "all dependencies",
+      "groupSlug": "all"
     }
   ],
     "labels": ["RENOVATE"],
